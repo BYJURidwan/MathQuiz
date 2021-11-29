@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MathQuizico</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h4 id="p1name"></h4><span id="p1score"></span>
+<h4 id="p2name"></h4><span id="p2score"></span>
+<div class="container">
+	<center>
+		<h2 style="color: white;">MathQuizico!</h2>
+<h3 id="playerQ"></h3>
+<h3 id="playerA"></h3>
+<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+        <h4>First Number</h4>
+        <input type="text" class="form-control" id="N1" placeholder="Enter number here...">
+		<br>
+        <h4>Second Number</h4>
+        <input type="text" class="form-control" id="N2" placeholder="Enter number here...">
+		<br>
+<button onclick="sendEq()" class="btn-success" style="width: 30%; color: antiquewhite;">ENTER</button>
+	</center>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>

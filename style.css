@@ -1,0 +1,28 @@
+body{
+    background-color: rosybrown;
+    }
+    
+    .login_div1, .login_div2{
+        background: white;
+        padding: 10px;
+        float: none;
+        border-radius: 15px;
+        }
+    
+    #p1name, #p2name{
+    display: inline-block;
+    margin-left: 20px;
+    }
+    
+    #N1, #N2{
+    width: 60%;
+    }
+
+    #output{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #e90b51;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    }
